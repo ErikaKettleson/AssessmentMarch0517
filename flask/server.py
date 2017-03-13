@@ -41,23 +41,6 @@ def success():
         # else:
         #     return render_template('application-form.html')
 
-# @app.route('/greet')
-# def greet_person():
-#     """Greet person, passing compliments if they want them."""
-
-#     player = request.args.get("person")
-#     wants_compliments = request.args.get("wants_compliments")
-
-#     if wants_compliments:
-#         nice_things = sample(COMPLIMENTS, 3)
-
-#     else:
-#         nice_things = []
-
-#     return render_template("compliments.html",
-#                            compliments=nice_things,
-#                            name=player)
-
 
 if __name__ == "__main__":
     # We have to set debug=True here, since it has to be True at the
