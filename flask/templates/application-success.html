@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Application Success</title>
+        <link rel="stylesheet" href="/static/styles.css">
+
+    </head>
+    <body>
+        <h1>WELCOME!</h1><br><br>
+        <div>
+            <p>Hello, {{ first }} {{ surname }}! </p>
+            <p>Thanks for applying to be our newest {{ job }}!</p>
+            <p>{{ "${:,.2f}".format(salary) }} sounds like a lowball to us!</p>
+        </div>
+        <br><br>
+    </body>
+</html>

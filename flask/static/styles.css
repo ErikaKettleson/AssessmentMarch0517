@@ -1,0 +1,66 @@
+/* Your styles can go here. *//* Your CSS goes here */
+form {
+    color: salmon;
+    font-size: 1em;
+}
+
+div {
+    background-color: salmon;
+    width: 400px;
+    padding: 25px;
+    font-size: 1em;
+    font-family: Georgia, Serif;
+    border: 25px solid red;
+}
+
+input[type=text] {
+    width:  40%;
+    padding: 12px 20px;
+    color: black;
+    background-color: #FFCC11;
+    border: 1px solid salmon;
+}
+
+#bold_field {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: salmon;
+    padding: 12px 20px;
+    width: 20%;
+    margin: 0px 130px;
+    border: 1px black;
+    color: black;
+}
+
+a {
+    color: hotpink;
+}
+
+h1 {
+    color: pink;
+    font-family: Georgia, Serif;
+    letter-spacing: 30px;
+    text-shadow: 3px 2px red;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-family: Georgia, Serif;
+}
+
+body {
+    background-image: url("http://www.lovethispic.com/uploaded_images/88631-Happy-Watermelon.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+body.bodyHome {
+    background-color: pink;
+    background-position: right;
+    background-attachment: fixed;
+}
+
