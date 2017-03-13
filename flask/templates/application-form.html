@@ -1,4 +1,29 @@
-<!doctype html>
+{% extends 'base.html' %}
+
+{% block title %}Application Form{% endblock %}
+
+{% block content %}
+    <h1>THE MELONS ARE COMING!</h1>
+        <div>Please enter your first and last name, your desired salary in dollars and your desired position!
+        <br><br>Good Melons To All!
+        </div><br>
+        <form action="/application-success.html" method="post">
+        <br><input type="text" name="firstname" placeholder="First Name"><br><br>
+        <br><input id="bold_field" type="text" name="lastname" placeholder="Last Name"><br><br>
+        <br><input type="text" name="salary" placeholder="Desired Salary: $"><br><br>
+        Position Please:
+        <select name="jobtype">
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="QA Engineer">QA Engineer</option>
+          <option value="Product Manager">Product Manager</option>
+        </select>
+            <br><br><br>
+            <input type="submit" value="submit">
+        </form>
+{% endblock %}
+
+
+<!-- <!doctype html>
     <html>
         <head>
             <link rel="stylesheet" href="/static/styles.css">
@@ -24,3 +49,4 @@
         </form>
     </body>
 </html>
+ -->

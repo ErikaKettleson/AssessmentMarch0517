@@ -34,8 +34,10 @@ input[type="submit"] {
     color: black;
 }
 
-a {
+/*why doesnt this work*/
+p.dangerous {
     color: hotpink;
+    font-size: 3em;
 }
 
 h1 {
@@ -51,6 +53,10 @@ h2 {
     font-family: Georgia, Serif;
 }
 
+img {
+    width: 100px;
+}
+
 body {
     background-image: url("http://www.lovethispic.com/uploaded_images/88631-Happy-Watermelon.jpg");
     background-repeat: no-repeat;
@@ -58,9 +64,9 @@ body {
     background-attachment: fixed;
 }
 
+/*why doesnt this work*/
 body.bodyHome {
     background-color: pink;
     background-position: right;
     background-attachment: fixed;
 }
-

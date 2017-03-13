@@ -1,4 +1,18 @@
-<!doctype html>
+{% extends 'base.html' %}
+
+{% block title %}SUCH SUCCESS{% endblock %}
+
+{% block content %}
+    <h1>THANKS!</h1>
+    <div>
+        <p>Hello, {{ first }} {{ surname }}! </p>
+        <p>Thanks for applying to be our newest {{ job }}!</p>
+        <p>{{ "${:,.2f}".format(salary) }} sounds like a lowball to us!</p>
+    </div>
+{% endblock %}
+
+
+<!-- <!doctype html>
 <html>
     <head>
         <title>Application Success</title>
@@ -6,7 +20,7 @@
 
     </head>
     <body>
-        <h1>WELCOME!</h1><br><br>
+        <h1>THANKS!</h1><br><br>
         <div>
             <p>Hello, {{ first }} {{ surname }}! </p>
             <p>Thanks for applying to be our newest {{ job }}!</p>
@@ -14,4 +28,4 @@
         </div>
         <br><br>
     </body>
-</html>
+</html> -->
